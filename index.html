@@ -4,35 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titan+One&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="nunito-200">
 
-    <head>
-        <img src="./Assets/Rune.png" alt="Rune" height="500px">
-        <h1>Ristorante le Rune</h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./menu.html">Menu</a>
-            <a href="./galleria.html">Galleria</a>
-            <a href="./dovesiamo.html">Dove siamo</a>
+    <header>
+        <nav class="navigazione">
+            <table class="tab1">
+                <tr> 
+                    <td class="tdata"><a href="./index.html">Home</a></td>
+                    <td class="tdata"><a href="./menu.html">Menu</a></td>
+                    <td class="tdata"><a href="./galleria.html">Galleria</a></td>
+                    <td class="tdata"><a href="./dovesiamo.html">Dove siamo</a></td>
+                </tr>
+            </table>
         </nav>
-    </head>
+
+        <div class="box">
+        <img src="./Assets/Rune.png" alt="Rune" height="200">
+        <div class="absolute"> <h1 class="titan-one-regular">Ristorante le Rune</h1> </div>
+        </div>
+        
+    </header>
     <main>
-<p>Confortevole ristorante italiano che serve piatti stagionali preparati con prodotti locali o artigianali.</p>
-<p><h2>LA NOSTRA STORIA</h2>
-Ciao! Siamo Alberto e Simona! Era il 1997 quando abbiamo cominciato a lavorare insieme al Ristorante Le Rune a Genova in Vico Domoculta,
- stesso ristorante che poi nel 2005 abbiamo preso in gestione con la proprietà riuscendo con continuità e perseveranza ad arrivare al 2010 quando lo abbiamo rilevato del tutto. 
-
-Nel 2016 ci siamo trasferiti nella nuova sede di Salita Inferiore Sant'Anna, adiacente a Piazza Portello e a Via Garibaldi, 
-con nostra estrema soddisfazione! Un locale su più livelli, molto caratteristico e con un fantastico dehors che si affaccia sulla Funicolare di Sant'Anna.
-
-Da allora, ancora con maggiore impegno e passione, presentiamo proposte diverse e creative in base alla stagione rimanendo sempre fedeli ai prodotti della regione, 
-alla qualità e alla freschezza delle materie prime.</p>
+        <div>
+            <h4>Confortevole ristorante italiano che serve piatti stagionali preparati con prodotti locali o artigianali.</h4>
+                <h2>LA NOSTRA STORIA</h2>
+                <p>Ciao! Siamo Alberto e Simona! Era il 1997 quando abbiamo cominciato a lavorare insieme al Ristorante Le Rune a Genova in
+                Vico Domoculta,stesso ristorante che poi nel 2005 abbiamo preso in gestione con la proprietà riuscendo con continuità
+                 e perseveranza ad arrivare al 2010 quando lo abbiamo rilevato del tutto.
+                 
+                 Nel 2016 ci siamo trasferiti nella nuova sede di Salita Inferiore Sant'Anna, adiacente a Piazza Portello e a Via
+                 Garibaldi, con nostra estrema soddisfazione! Un locale su più livelli, molto caratteristico e con un fantastico dehors che si
+                 affaccia sulla Funicolare di Sant'Anna.
+                 Da allora, ancora con maggiore impegno e passione, presentiamo proposte diverse e creative in base alla stagione
+                 rimanendo sempre fedeli ai prodotti della regione, alla qualità e alla freschezza delle materie prime.</p>
+</div>
     </main>
-    <footer>
-
+    <footer  class="pie">
+        <div>
+        Indirizo: Salita Inferiore Sant'Anna, 6R, 16123 Genova GE   - Adiacente a Piazza Portello
+        <br>Telefono: 010 594951 - 349 1728910  - 349 8723997 
+        <br>Email:  info@ristorantele_rune.it
+        </div>
     </footer>
 </body>
 

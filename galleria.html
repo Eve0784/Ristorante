@@ -4,26 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galleria</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titan+One&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="nunito-200">
 
-    <head>
-        <img src="./Assets/Rune.png" alt="Rune"height="500px">
-        <h1>Ristorante le Rune</h1>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./menu.html">Menu</a>
-            <a href="./galleria.html">Galleria</a>
-            <a href="./dovesiamo.html">Dove siamo</a>
+   <header>
+        <nav class="navigazione">
+            <table class="tab1">
+                <tr> 
+                    <td class="tdata"><a href="./index.html">Home</a></td>
+                    <td class="tdata"><a href="./menu.html">Menu</a></td>
+                    <td class="tdata"><a href="./galleria.html">Galleria</a></td>
+                    <td class="tdata"><a href="./dovesiamo.html">Dove siamo</a></td>
+                </tr>
+            </table>
         </nav>
-    </head>
+
+        <div class="box">
+        <img src="./Assets/Rune.png" alt="Rune" height="200">
+        <div class="absolute"> <h1 class="titan-one-regular">Ristorante le Rune</h1> </div>
+        </div>
+        
+    </header>
     <main>
+        <h2>Alcuni dei nostri piatti</h2>
+        <img src="./Assets/ravioli.webp" alt="Piatto 1" height="300" class="piatti">
+        <img src="./Assets/trofie.webp" alt="Piatto 2" height="300" class="piatti">
+        <img src="./Assets/polpo.jpg" alt="Piatto 3" height="300" class="piatti">
+        <img src="./Assets/bruschetta.png" alt="Piatto 4" height="300" class="piatti">
+        <img src="./Assets/semifreddo.jpg" alt="Piatto 5" height="300" class="piatti">
+        <img src="./Assets/Cheesecake.webp" alt="Piatto 6" height="300" class="piatti">
 
     </main>
-    <footer>
-
+     <footer  class="pie">
+        <div>
+        Indirizo: Salita Inferiore Sant'Anna, 6R, 16123 Genova GE   - Adiacente a Piazza Portello
+        <br>Telefono: 010 594951 - 349 1728910  - 349 8723997 
+        <br>Email:  info@ristorantele_rune.it
+        </div>
+    </footer>
     </footer>
 </body>
 
