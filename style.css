@@ -12,6 +12,8 @@ p{
 .box{
     background-color: rgb(73, 15, 15);
     height: 200px;
+    width: 100%;
+
 }
 h1{
     padding: 10px;
@@ -58,6 +60,7 @@ h4{
     padding: 10px 0px 10px 0px;
     font-size: 14px;
     font-weight: 50px;
+    width: 100%;
 
 }
 .piatti{
