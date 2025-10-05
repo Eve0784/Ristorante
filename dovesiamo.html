@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dove siamo</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Titan+One&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
 
-</head>
 
-<body class="nunito-200">
+    </head>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./galleria.html">Galleria</a></li>
-                <li><a href="./dovesiamo.html">Dove siamo</a></li>
-            </ul>
-        </nav>
+    <body class="nunito-200">
 
-        <div class="box">
-        <img src="./Assets/Rune.png" alt="Rune" height="200">
-        <div class="absolute"> <h1 class="titan-one-regular">Ristorante le Rune</h1> </div>
-        </div>
-        
-    </header>
-    <main>
-    <iframe class="map" src="https://www.openstreetmap.org/export/embed.html?bbox=8.932515084743502%2C44.41123099188561%2C8.935964405536653%2C44.41245721721937&amp;layer=mapnik&amp;marker=44.41184410776625%2C8.934239745140076">        
-    </iframe><br/><small>
-    <a href="https://www.openstreetmap.org/?mlat=44.411844&amp;mlon=8.934240#map=19/44.411844/8.934240" target="_blank" class="map-link" >Guarda la mappa più grande</a></small>
-    </main>
-    <footer  class="pie">
-        <div>
-        Indirizo: Salita Inferiore Sant'Anna, 6R, 16123 Genova GE   - Adiacente a Piazza Portello
-        <br>Telefono: 010 594951 - 349 1728910  - 349 8723997 
-        <br>Email:  info@ristorantele_rune.it
-        </div>
-    </footer>
-    </footer>
-</body>
+        <div class="container">
+            <div class="header">
+                <header>
+                    <div class="navigazione">
+                        <nav>
+                            <div class="nav-child"></div>
+                            <div class="nav-li"><a href="./index.html">Home</a></div>
+                            <div class="nav-li"><a href="./menu.html">Menu</a></div>
+                            <div class="nav-li"><a href="./galleria.html">Galleria</a></div>
+                            <div class="nav-li"><a href="./dovesiamo.html">Dove siamo</a></div>
+                        </nav>
+                    </div>
+                    <div class="box">
+                        <div class="div-img">
+                            <img src="./Assets/Rune.png" alt="Rune" height="200">
+                        </div>
+                        <div class="div-title">
+                            <h1 class="almendra-sc-regular">Ristorante le Rune</h1>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div >
+                <main>
+                    <div>
+                        <h4>Confortevole ristorante italiano che serve piatti stagionali preparati con prodotti locali o
+                            artigianali.</h4>
+                        <div class="map-section">
+                            <iframe class="map"
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=8.932515084743502%2C44.41123099188561%2C8.935964405536653%2C44.41245721721937&amp;layer=mapnik&amp;marker=44.41184410776625%2C8.934239745140076">
+                            </iframe><br /><small>
+                        </div>
+                    </div>
+                </main>
+                <div class="footer">
+                    <footer>
+                        <div class="pie">
+                            <p> Indirizo: Salita Inferiore Sant'Anna, 6R, 16123 Genova GE - Adiacente a Piazza Portello
+                                <br>Telefono: 010 594951 - 349 1728910 - 349 8723997
+                                <br>Email: info@ristorantele_rune.it
+                            </p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+    </body>
 
 </html>
